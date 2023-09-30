@@ -25,8 +25,8 @@ endif
 
 if empty($TMUX)
   command! TmuxNavigateLeft call s:VimNavigate('h')
-  command! TmuxNavigateDown call s:VimNavigate('j')
-  command! TmuxNavigateUp call s:VimNavigate('k')
+  command! TmuxNavigateDown call s:VimNavigate('15j')
+  command! TmuxNavigateUp call s:VimNavigate('15k')
   command! TmuxNavigateRight call s:VimNavigate('l')
   command! TmuxNavigatePrevious call s:VimNavigate('p')
   finish
